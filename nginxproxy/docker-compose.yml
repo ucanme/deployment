@@ -1,0 +1,15 @@
+version: "3"
+services: 
+ nginx:
+  restart: always
+  container_name: nginx-proxy
+  image: nginx
+  ports:
+   - 23078:23078
+  volumes: 
+   - ./etc/conf.d:/etc/nginx/conf.d
+   - ./log:/var/log/nginx
+   - ./www:/var/www
+   - ./etc/letsencrypt:/etc/letsencrypt
+   - ./html:/usr/share/nginx/html
+   - ./etc/cert:/etc/nginx/cert

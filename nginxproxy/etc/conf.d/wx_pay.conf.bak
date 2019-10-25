@@ -1,0 +1,10 @@
+server{
+listen 23078; 
+location / {
+        	proxy_temp_file_write_size 128k;
+        	proxy_set_header Host $host;
+		proxy_redirect off;
+        	proxy_set_header X-Real-IP $remote_addr;
+		proxy_pass https://sz-k8s-prometheus.aibee.cn/;
+	}
+}
