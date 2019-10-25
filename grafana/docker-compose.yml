@@ -1,10 +1,12 @@
-version: "2"
+version: "3"
 
 services:
   grafana:
     image: grafana/grafana
     ports:
-      - 3000:3000
+      - 19772:19772
     user: "104"
+    privileged: true
+    command: chown -R root:root /etc/grafana && chmod -R a+r /etc/grafana && chown -R grafana:grafana /var/lib/grafana && chown -R grafana:grafana /usr/share/grafana
     volumes:
         - ./etc/grafana.ini:/etc/grafana/grafana.ini
