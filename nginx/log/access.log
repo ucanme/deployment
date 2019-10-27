@@ -1829,3 +1829,6 @@
 111.193.24.122 - - [27/Oct/2019:12:40:06 +0000] "GET /public/fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2 HTTP/1.1" 200 14600 "https://longhu-statistics.aibee.cn/public/build/grafana.dark.e402a76d33a475eefbc0.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" "-"
 111.193.24.122 - - [27/Oct/2019:12:40:06 +0000] "GET /public/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 77160 "https://longhu-statistics.aibee.cn/public/build/grafana.dark.e402a76d33a475eefbc0.css" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" "-"
 111.193.24.122 - - [27/Oct/2019:12:40:06 +0000] "GET /public/img/fav32.png HTTP/1.1" 200 3607 "https://longhu-statistics.aibee.cn/login" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" "-"
+106.12.223.236 - - [27/Oct/2019:12:49:54 +0000] "GET / HTTP/1.0" 302 29 "-" "-" "-"
+106.12.223.235 - - [27/Oct/2019:12:51:03 +0000] "GET / HTTP/1.0" 302 29 "-" "-" "-"
+106.12.223.235 - - [27/Oct/2019:12:51:03 +0000] "GET / HTTP/1.1" 302 29 "-" "-" "-"
