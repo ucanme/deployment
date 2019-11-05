@@ -1,2 +1,2 @@
 # deployment
-common docker server deployment
+全面的docker-compose一键部署仓库。
